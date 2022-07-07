@@ -1,0 +1,37 @@
+const data = {
+  en: {
+    totalDisplay: 'Total Amount',
+    closeDisplay: 'Close',
+    orderDisplay: 'Order',
+    sendingDisplay: 'Sending order data...',
+    sentDisplay: 'Successfully sent the order!',
+    nameLabel: 'Your Name',
+    nameInvalidMsg: 'Please enter a valid name!',
+    streetLabel: 'Street',
+    streetInvalidMsg: 'Please enter a valid street!',
+    postalLabel: 'Postal Code',
+    postalInvalidMsg: 'Please enter a valid postal code (5 characters long)!',
+    cityLabel: 'City',
+    cityInvalidMsg: 'Please enter a valid city!',
+    cancelDisplay: 'Cancel',
+    confirmDisplay: 'Confirm',
+  },
+  ar: {
+    totalDisplay: 'الإجمالي',
+    closeDisplay: 'أغلق',
+    orderDisplay: 'اطلب',
+    sentDisplay: 'أرسلنا طلبكم!',
+    nameLabel: 'اسمك',
+    nameInvalidMsg: 'رجاءً اكتب اسمًا صحيحًا!',
+    streetLabel: 'الشارع',
+    streetInvalidMsg: 'رجاءً اكتب شارعًا صحيحًا!',
+    postalLabel: 'الرمز البريدي',
+    postalInvalidMsg: 'رجاءً اكتب رمزًا بريديًّا صحيحًا (٥ أرقام)',
+    cityLabel: 'المدينة',
+    cityInvalidMsg: 'رجاءً اكتب مدينةً صحيحة',
+    cancelDisplay: 'ألغِ',
+    confirmDisplay: 'أتِمّ',
+  },
+};
+
+export default data;
